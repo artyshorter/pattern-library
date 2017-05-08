@@ -48,8 +48,8 @@
 
     <div class="model">
     <h3>Basics: Menu</h3>
-    <p class="sub-title">There are many simple navigation patterns for both the designer and the developer to follow.</p>
-    <p class="sub-title">Code Example</p>
+    <p class="sub-title">To create a menu, the users have to use a <b>&lt;ul&gt;</b> with <b>&lt;li&gt;</b> elements. A Menu is set horizontally oriented by default. The use of <b>&lt;ul&gt;</b> and <b>&lt;li&gt;</b> is only appropriate when want to list items in a squence.</p>
+    <p class="sub-title">HTML</p>
     <div class="model-snippet">
 <pre>
   &lt;ul class="menu menu-desktop"&gt;
@@ -104,9 +104,9 @@
 <!-- Top Menu -->
 
     <div class="model">
-    <h3>Top Menu</h3>
-    <p class="sub-title">There are many simple navigation patterns for both the designer and the developer to follow.</p>
-    <p class="sub-title">Code Example</p>
+    <h3>Top Bar</h3>
+    <p class="sub-title">A top bar have two section <b>(.top-bar-left)</b> and <b>(.top-bar-right)</b>. The users can use both of them on the website. When the user’s on small screens, these section will stack on the top of each other.</p>
+    <p class="sub-title">HTML</p>
     <div class="model-snippet">
 <pre>
   &lt;nav class="top-bar show-for-large"&gt;
@@ -118,7 +118,7 @@
 
     &lt;div class="top-bar-right nav-desktop"&gt;
       &lt;ul class="menu menu-desktop"&gt;
-        &lt;li&gt;&lt;a href="index.html"&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Link 1&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="#"&gt;Link 2&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="#"&gt;Link 3&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="#"&gt;Link 4&lt;/a&gt;&lt;/li&gt;
@@ -197,8 +197,11 @@
 
   <div class="model">
   <h3>Responsive Navigation</h3>
-  <p class="sub-title">There are many simple navigation patterns for both the designer and the developer to follow.</p>
-  <p class="sub-title">Code Example</p>
+  <p class="sub-title">A menu has responsive CSS classess built in, which allow the menu to rezie on differernet screen
+sizes. You can set up the menu to the left when you access the site using your mobile phone by using
+<b>off-canvas position-left</b> and ID of the menu you’re toggeling, and add <b>data-off-canvas</b> to the element
+that will trigger the toggle.</p>
+  <p class="sub-title">HTML</p>
   <div class="model-snippet">
 <pre>
   &lt;div class="off-canvas-content" data-off-canvas-content&gt;
@@ -224,7 +227,7 @@
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-  
+
   &lt;div class="off-canvas-content" data-off-canvas-content&gt;
     &lt;div class="title-bar show-for-small-only"&gt;
       &lt;div class="title-bar-left"&gt;
@@ -233,7 +236,7 @@
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-  
+
   &lt;nav class="top-bar"&gt;
     &lt;div class="top-bar-left nav-desktop"&gt;
       &lt;ul class="menu"&gt;
@@ -381,7 +384,11 @@
 
       <div class="model">
       <h3>Carousel</h3>
-      <p class="sub-title">There are many simple navigation patterns for both the designer and the developer to follow.</p>
+      <p class="sub-title">Orbit allow the users to customize the site using an image
+        and content with the animation that can be used. We have used the <b>date-orbsite</b> wrapper
+        to placed the button at the centre edge of the slide container. Each slide has an <b>&lt;li&gt;</b> with the class .orbit-slide.
+          The <b>.is-active</b> class is the default of each individual slide. Orbit also use the class <b>.orbit-previous</b> and <b>.orbit-next</b> to navigate each individual slide.
+          We are using ASCII arrow for the carousel controls wrapped in the class <b>.show-for-sr</b> to explain what the controls do.</p>
       <p class="sub-title">HTML</p>
       <div class="model-snippet">
   <pre>
@@ -478,7 +485,10 @@ https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/what-input.min
 
       <div class="model">
       <h3>Buttons</h3>
-      <p class="sub-title">There are many simple navigation patterns for both the designer and the developer to follow.</p>
+      <p class="sub-title">Buttons allow the users to take actions on the website for example: View the content, Click on a navigation, etc. It is important to use the right tag in order to create a basic button
+<br>- Use the <b>&lt;a&gt;</b> tag if the users want to link to another page or a link to an anchor within a page
+<br>- Use the <b>&lt;button&gt;</b> tag if the users want to perform an action on the website.
+We also using additional classes that it can be added to the button to change its size and shape. <br>- Add the <b>.hollow</b> class to the button to give the hollow style and it can be removed the <b>.hollow</b> class from the class.</p>
       <p class="sub-title">HTML</p>
       <div class="model-snippet">
   <pre>
@@ -570,7 +580,9 @@ https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/what-input.min
 
           <div class="model">
           <h3>Jumbotron</h3>
-          <p class="sub-title">There are many simple navigation patterns for both the designer and the developer to follow.</p>
+          <p class="sub-title">A jumbotron is displayed to give extra attention to the content or information.
+            By default, the users have to use <b>.container</b> to place the jumbotron inside and using <b>.row column text-center</b> to align all the text in the center.
+            The users can also apply a grid system on a jumbotron as shown below:</p>
           <p class="sub-title">HTML</p>
           <div class="model-snippet">
       <pre>
@@ -645,7 +657,8 @@ https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/what-input.min
 
               <div class="model">
               <h3>Footer</h3>
-              <p class="sub-title">There are many simple navigation patterns for both the designer and the developer to follow.</p>
+              <p class="sub-title">The users can install <b>Font Awesome</b> to use icons on the footer section.
+                We have used Foundation grids to modify the layout for the external links and icons. </p>
               <p class="sub-title">HTML</p>
               <div class="model-snippet">
           <pre>
@@ -786,7 +799,7 @@ https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/what-input.min
 
                   <div class="small-12 large-centered columns">
                     <div class="copyright">
-                      <p>Coypright 2017 © - Achitectural Elite</p>
+                      <p>Copyright 2017 © - Achitectural Elite</p>
                     </div>
                   </div>
 
@@ -811,7 +824,10 @@ https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/what-input.min
 
                   <div class="model">
                   <h3>Cards</h3>
-                  <p class="sub-title">There are many simple navigation patterns for both the designer and the developer to follow.</p>
+                  <p class="sub-title">A card is using a <b>.card</b> class to create an element.
+                    The users can put any content or information inside the box such as images, contact details, etc.
+                    The users have to make sure that the content is wrapped in a <b>.card-section</b> element in order to create a traditional card design.
+                    A card container has no padding to allow the users to place full-images inside. The users must use the <b>.card-divider</b> and <b>.card-section</b> classes to create sub-heading under the images as shown below:</p>
                   <p class="sub-title">HTML</p>
                   <div class="model-snippet">
               <pre>
