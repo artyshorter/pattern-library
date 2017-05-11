@@ -1,4 +1,4 @@
-# Web Design for Industry (SWD6
+# Web Design for Industry (SWD600)
 
 ## The pattern library
 
