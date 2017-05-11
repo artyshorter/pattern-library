@@ -1,11 +1,14 @@
 # Web Design for Industry (SWD6
 
-## Installati
+## The pattern library
 
-To use this template, your computer needs:
-
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
+Minimum of 6 production components:
+- Navigation Bar (Nav)
+- HEader Element (Carousel or just static)
+- A range of six button types
+- Jumbotron (Call to action)
+- Foooter incorporating social media icon links
+- Component of your choice
 
 This template can be installed with the Foundation CLI, or downloaded and set up manually.
 
