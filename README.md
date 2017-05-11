@@ -4,7 +4,7 @@
 
 Minimum of 6 production components:
 - Navigation Bar (Nav)
-- HEader Element (Carousel or just static
+- Header Element (Carousel or just static
 - A range of six button types
 - Jumbotron (Call to action)
 - Foooter incorporating social media icon links
@@ -12,13 +12,9 @@ Minimum of 6 production components:
 
 You are required to make a Pattern library consisting of 6 components, which should be supported by examples , documentation and code snippets that can be cut and pasted. You can create more components if you wish to create a more comprehensive pattern lib
 
-### Using the CLI
-
-Install the Foundation CLI with this command:
+### Report documenting
 
 ```bash
-npm install foundation-cli --global
-```
 
 Use this command to set up a blank Foundation for Sites project with this template:
 
